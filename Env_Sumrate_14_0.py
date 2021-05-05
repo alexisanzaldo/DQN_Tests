@@ -496,8 +496,8 @@ class CellularEnv(Env):
 
                 else:  # Grid BS deployment is implemented
                     x_base_station, y_base_station, self.val_cell_position = grid_deployment(self.Nbs, self.Rmax)
-                    print(self.val_cell_position)
-                    wait = input('Press enter to continue')
+                    #print(self.val_cell_position)
+                    #wait = input('Press enter to continue')
 
                     user_position = self.Validation_set[test_number * self.Nbs:(test_number+1) * self.Nbs,:]
                     user_position = self.val_cell_position + user_position
