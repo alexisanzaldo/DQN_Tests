@@ -582,7 +582,7 @@ class CellularEnv(Env):
                 # C = math.log2(1 + sinr)
 
             self.rates.append(C)  # Todas las tasas concatenadas
-            self.rewards.append(Reward)
+            #self.rewards.append(Reward)
 
         # Reward Function (Prueba) -------------------------------------------------------------------------------------
         sumrate = np.sum(self.rates[(self.episode_length * self.Nbs):(self.episode_length * self.Nbs) + self.Nbs])
