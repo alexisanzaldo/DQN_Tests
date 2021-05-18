@@ -3,27 +3,29 @@ import numpy as np
 instances= 10#10
 #Nbs = np.random.randint(4,19)  # 7#3#19
 #Nue = np.copy(Nbs)  # 7#3#19
-Nbs = 19
-Nue = 19
-
+Nbs = 4
+Nue = 4
 #this parameters are needed only on poisson deployment -----------------------------------------------------------------
 width = 180
 height = 180
 cell_position='grid' # ir cell_position='grid'  OR 'poisson'
+#cell_position = 'poisson'
 # Scenario layout Parameters ------------------------------------------------------------------------------------------
 
 # Neural Network Parameters -------------------------------------------------------------------------------------------
-A = 10
+A = 5
 intervals = 10
 train_intervals = 10
 report_interval = 100
 
-warm_ep = 10
+warm_ep = 100
 num_games = 5000 + warm_ep  # Episodes
 exp_games = 3000 + warm_ep
-#num_games = 300 + warm_ep  # Episodes
-#exp_games = 100 + warm_ep
 
+
+#warm_ep = 10
+#num_games = 200 + warm_ep  # Episodes
+#exp_games = 100 + warm_ep
 
 
 
@@ -48,7 +50,7 @@ Rmax = 25 #* 0.866
 Rmin = 1#
 Pmin_dBm = -20
 noise_power_dBm = -114  # Para este ejercicio (1)
-SINR_th = 10 ** (5 / 10) # Para obtener el SINR en dB -> 10*log10(SNR_th)
+SINR_th = 10 ** (9 / 10) # Para obtener el SINR en dB -> 10*log10(SNR_th)
 # Network Parameters --------------------------------------------------------------------------------------------------
 
 # Initialization ------------------------------------------------------------------------------------------------------
