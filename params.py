@@ -3,8 +3,8 @@ import numpy as np
 instances= 10#10
 #Nbs = np.random.randint(4,19)  # 7#3#19
 #Nue = np.copy(Nbs)  # 7#3#19
-Nbs = 4
-Nue = 4
+Nbs = 7
+Nue = 7
 #this parameters are needed only on poisson deployment -----------------------------------------------------------------
 width = 180
 height = 180
