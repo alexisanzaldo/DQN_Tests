@@ -5,8 +5,8 @@ Nue = 19
 #this parameters are needed only on poisson deployment -----------------------------------------------------------------
 width = 180
 height = 180
-cell_position='grid' # ir cell_position='grid'  OR 'poisson'
-#cell_position = 'poisson'
+#cell_position='grid' # ir cell_position='grid'  OR 'poisson'
+cell_position = 'poisson'
 # Scenario layout Parameters ------------------------------------------------------------------------------------------
 
 # Neural Network Parameters -------------------------------------------------------------------------------------------
