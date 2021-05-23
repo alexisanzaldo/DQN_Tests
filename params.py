@@ -42,7 +42,9 @@ Rmax = 25 #* 0.866
 Rmin = 1#
 Pmin_dBm = -20
 noise_power_dBm = -114  # Para este ejercicio (1)
-SINR_th = 10 ** (9 / 10) # Para obtener el SINR en dB -> 10*log10(SNR_th)
+#SINR_th = 10 ** (9 / 10) # Para obtener el SINR en dB -> 10*log10(SNR_th)
+SINR_th = 10 ** (5 / 10)
+
 # Network Parameters --------------------------------------------------------------------------------------------------
 
 # Initialization ------------------------------------------------------------------------------------------------------
