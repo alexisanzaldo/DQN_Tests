@@ -529,8 +529,8 @@ class CellularEnv(Env):
 
 
             #wait= input('Press enter to continue')
-            self.val_state = np.zeros((self.Nbs, 20, Val_scenarios), dtype=np.float32)  # {R_,P_,SINR_)
-
+            #self.val_state = np.zeros((self.Nbs, 20, Val_scenarios), dtype=np.float32)  # {R_,P_,SINR_)
+            self.val_state = np.zeros((self.Nbs, 56, Val_scenarios), dtype=np.float32)
 
 
 
