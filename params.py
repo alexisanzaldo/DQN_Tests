@@ -49,6 +49,6 @@ SINR_th = 10 ** (9 / 10) # Para obtener el SINR en dB -> 10*log10(SNR_th)
 
 # Neural Network Parameters -------------------------------------------------------------------------------------------
 
-C = 7 # C equals to the number of BS considered on the observation state
+C = 19 # C equals to the number of BS considered on the observation state
 
 chkpt_dir= '/Google Colab/Borrador/Proyecto_Conference/Network_Weights'
